@@ -5,8 +5,7 @@
 using namespace std;
 
 int rzad(int n);                       //wylicza rzad
-int wart_ntej_liczb (int n);           //wartosc n-tej liczby
-int r,mnoznik,n;
+int r,n;
 
 int main()                            //main()
 {
@@ -16,7 +15,7 @@ int main()                            //main()
 
     while (n>=0) {
         ord=rzad(n);                  //r->ord->r w 2 funkcji
-        wart=wart_ntej_liczb(n);
+        wart=1;
         suma+=wart;
         n=n-(wart*ord);
     }
@@ -37,14 +36,4 @@ int rzad(int n)       //wylicza rzad
     }
     r=r/10;
     return r;
-}
-
-int wart_ntej_liczb (int n)          
-{
-	mnoznik=1;
-    while (((n/mnoznik)*r)==1)
-	{
-		mnoznik++;
-    }
-    return mnoznik;
 }
