@@ -1,6 +1,10 @@
 WDI-Laboratoria
 ========
-Lab05_04.c
-RandGen(bez sort).c - made by Rafa≥  G.
-RandGenv2(bs) - made by Kajetan S.
+
+Lab05_04.c - AWK
+
+RandGen(bez sort).c - made by Rafa≈Ç  G.
+
+RandGenv2(bs) (bez sortowania) - made by Kajetan S.
+
 Inne/
